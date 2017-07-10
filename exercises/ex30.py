@@ -9,9 +9,9 @@ elif cars < people:
 else:
     print "We can't decide."
 
-if buses < cars:
+if buses > cars:
     print "Thats too many buses."
-elif buses > cars:
+elif buses <  cars:
     print "Maybe we could take the buses."
 else:
     print "We still can't decide."
